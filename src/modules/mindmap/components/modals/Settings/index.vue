@@ -3,7 +3,7 @@
     <div class="settings">
       <h2 class="settings__title">Settings</h2>
 
-      <Setting v-for="setting of settings" :key="setting.id" v-bind="{ setting }" />
+      <Setting v-for="setting of settings" v-bind="{ setting }" />
     </div>
   </BaseModal>
 </template>
